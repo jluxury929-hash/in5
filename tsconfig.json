@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"] // Include all files inside the src directory
+  "include": ["src/**/*.js"] // Include all files inside the src directory
 }
