@@ -10,6 +10,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  // This tells the compiler to look for all files (including .ts) in the src folder.
   "include": ["src/**/*"] 
 }
