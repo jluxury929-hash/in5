@@ -16,10 +16,7 @@
     "typescript": "latest",
     "@types/node": "latest",
     "hardhat": "latest",
-    // Pinning the toolbox and related dependency to a version 
-    // that likely pre-dates the switch to the ^6.14.0 requirement.
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    // We explicitly include this dev dependency to ensure it gets the older version
     "@nomicfoundation/hardhat-ethers": "3.0.0" 
   }
 }
