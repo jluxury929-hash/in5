@@ -16,6 +16,6 @@
     "typescript": "latest",
     "@types/node": "latest",
     "hardhat": "latest",
-    "@nomicfoundation/hardhat-toolbox": "latest"
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0" 
   }
 }
