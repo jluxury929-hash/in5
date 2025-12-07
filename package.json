@@ -1,6 +1,4 @@
 {
-  "name": "production-mev-bot",
-  "version": "3.0.0",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
