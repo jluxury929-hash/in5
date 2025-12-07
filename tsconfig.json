@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "rootDir": "./src",
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": ".",
     "outDir": "./dist",
-    "strict": true,
+    "sourceMap": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "allowJs": true,
+    "checkJs": false
   },
-  "include": ["src/**/*"] 
+  "include": ["index.js", "mev_backend.js", "src/**/*.js"],
+  "exclude": ["node_modules", "dist"]
 }
